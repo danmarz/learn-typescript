@@ -20,3 +20,18 @@ const age = 22
 
 console.log(birthdayGreeter(birthdayHero, age));
 
+
+
+// --------------------------------------------------
+
+let miString = 'Hello world';
+miString = 'Hello TypeScript';
+
+// let literal:"hello" = 'Hello';   // same as a constant declaration, is type "hello" (string) and value "Hello"
+// constantString = 'Hello world'; // -> error
+// literal = 'Hello world';
+
+type Operator = 'sumar' | 'restar' | 'multiplicar' | 'dividir';
+type otro = string | Array<string>;
+
+const miOperator: Operator = 'multiplicar';
