@@ -47,3 +47,16 @@ Superset of JS - Extends Javascript with structured data-types, OOP, ESNext modu
 ```
 ### Types vs Interfaces
 - https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#differences-between-type-aliases-and-interfaces
+
+## Decorators
+- https://blog.logrocket.com/a-practical-guide-to-typescript-decorators/
+
+## Linting
+
+- `tslint.json`
+- https://www.npmjs.com/package/standard -> no ;
+- https://www.npmjs.com/package/semistandard -> yes ;
+
+- `npm i -g @nestjs/cli` 
+- `nest g controller book` -> create a new route/controller
+- `nest g service book`
